@@ -10,14 +10,19 @@ Babou Extensions for AspNetCore is just another extension method project using .
 ## **Extensions**
 
 * HttpRequests
-* More to come. Check out [BabouExtensions for .NET Standard](https://github.com/ajtatum/BabouExtensions) for more
+* More to come...
 
 ## **Install**
 
-View the NuGet package at https://www.nuget.org/packages/BabouExtensions.AspNetCore/
+View the [NuGet package](https://www.nuget.org/packages/BabouExtensions.AspNetCore/).
 
 * **Package Manager:** Install-Package BabouExtensions.AspNetCore
 * **.NET CLI:** dotnet add package BabouExtensions.AspNetCore
+
+For .NET Standard applications, check out [BabouExtensions](https://github.com/ajtatum/BabouExtensions) and view the [NuGet package](https://www.nuget.org/packages/BabouExtensions/).
+
+* **Package Manager:** Install-Package BabouExtensions
+* **.NET CLI:** dotnet add package BabouExtensions
 
 
 ### **Subscribe**
