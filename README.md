@@ -1,33 +1,24 @@
-![alt text](https://raw.githubusercontent.com/ajtatum/BabouExtensions/master/assets/Babou-150x150.png "Babou loves extension methods!") <!-- markdownlint-disable -->
+![alt text](https://raw.githubusercontent.com/ajtatum/BabouExtensions.AspNetCore/master/assets/Babou-150x150.png "Babou loves extension methods!") <!-- markdownlint-disable -->
 
-# **Babou Extensions**
+# **Babou Extensions for AspNetCore**
 
-[![Build status](https://ci.appveyor.com/api/projects/status/2um6nsg5bub058nv?svg=true)](https://ci.appveyor.com/project/ajtatum/babouextensions) ![Nuget](https://img.shields.io/nuget/dt/BabouExtensions)
+[![Build status](https://ci.appveyor.com/api/projects/status/8x0ng4purytl3ie4?svg=true)](https://ci.appveyor.com/project/ajtatum/babouextensions-aspnetcore)
+ ![Nuget](https://img.shields.io/nuget/dt/BabouExtensions.AspNetCore)
 
-Babou Extensions is just another extension method project using .NET Standard 2.0.
+Babou Extensions for AspNetCore is just another extension method project using .NET Core 3.0.
 
 ## **Extensions**
 
-* DataTables, DataSets
-* DateTime
-* Identity
 * HttpRequests
-* Linq
-* Lists, IEnumerable, and IQueryable
-* Strings
-* Validations and Assertions
+* More to come. Check out [BabouExtensions for .NET Standard](https://github.com/ajtatum/BabouExtensions) for more
 
 ## **Install**
 
-For .NET Standard applications, view the NuGet package at https://www.nuget.org/packages/BabouExtensions/
-
-* **Package Manager:** Install-Package BabouExtensions
-* **.NET CLI:** dotnet add package BabouExtensions
-
-For .NET Core applications, view the NuGet package at https://www.nuget.org/packages/BabouExtensions.AspNetCore/
+View the NuGet package at https://www.nuget.org/packages/BabouExtensions.AspNetCore/
 
 * **Package Manager:** Install-Package BabouExtensions.AspNetCore
 * **.NET CLI:** dotnet add package BabouExtensions.AspNetCore
+
 
 ### **Subscribe**
 
