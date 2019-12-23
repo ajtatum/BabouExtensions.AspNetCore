@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+      <Version>1.0.0</Version>
+      <PackageVersion>1.0.0</PackageVersion>
+      <Title>Babou Extensions for AspNetCore</Title>
+      <Product>Babou Extensions for AspNetCore</Product>
+      <Description>Another Extension Methods package, but named after Babou and built in Fort Kickass from the tv show Archer.</Description>
+      <Summary>Another Extension Methods package, but named after Babou and built in Fort Kickass from the tv show Archer.</Summary>
+      <Authors>ajtatum</Authors>
+      <Owners>ajtatum</Owners>
+      <Copyright>ajtatum</Copyright>
+      <Company>https://ajt.io</Company>
+      <PackageId>BabouExtensions.AspNetCore</PackageId>
+      <PackageLicenseExpression>MIT</PackageLicenseExpression>
+      <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+      <PackageProjectUrl>https://github.com/ajtatum/BabouExtensions.AspNetCore</PackageProjectUrl>
+      <PackageIconUrl>https://raw.githubusercontent.com/ajtatum/BabouExtensions.AspNetCore/master/assets/Babou.png</PackageIconUrl>
+      <PackageTags>extension-methods extensions extension aspnetcore dotnet babou</PackageTags>
+      <PackageReleaseNotes>Added string extension WithMaxLength as a replacement for Truncate.</PackageReleaseNotes>
+      <RepositoryUrl>https://github.com/ajtatum/BabouExtensions.AspNetCore</RepositoryUrl>
+      <RepositoryType>git</RepositoryType>
+      <NeutralLanguage>en-US</NeutralLanguage>
+      <LangVersion>default</LangVersion>
+      <GenerateDocumentationFile>true</GenerateDocumentationFile>
+      <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
