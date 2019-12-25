@@ -9,7 +9,8 @@ Babou Extensions for AspNetCore is just another extension method project using .
 
 ## **Extensions**
 
-* HttpRequests
+* HttpRequestExtensions
+* UrlHelperExtensions
 * More to come...
 
 ## **Install**

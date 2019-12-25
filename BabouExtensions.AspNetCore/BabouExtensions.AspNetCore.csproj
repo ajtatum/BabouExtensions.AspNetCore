@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
@@ -18,7 +18,7 @@
       <PackageProjectUrl>https://github.com/ajtatum/BabouExtensions.AspNetCore</PackageProjectUrl>
       <PackageIconUrl>https://raw.githubusercontent.com/ajtatum/BabouExtensions.AspNetCore/master/assets/Babou.png</PackageIconUrl>
       <PackageTags>extension-methods extensions extension aspnetcore dotnet babou</PackageTags>
-      <PackageReleaseNotes>Added string extension WithMaxLength as a replacement for Truncate.</PackageReleaseNotes>
+      <PackageReleaseNotes>Added UrlHelperExtensions.</PackageReleaseNotes>
       <RepositoryUrl>https://github.com/ajtatum/BabouExtensions.AspNetCore</RepositoryUrl>
       <RepositoryType>git</RepositoryType>
       <NeutralLanguage>en-US</NeutralLanguage>
@@ -29,6 +29,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
   </ItemGroup>
 
 </Project>
